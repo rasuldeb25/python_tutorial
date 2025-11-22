@@ -27,12 +27,17 @@ print(f"The distance is {distance}km")
 #boolean
 isStudent = False
 forSale = False
+isOnline = True
 print(f"are you a student? {isStudent}")
 if isStudent:
     print("Yes")
 else:
     print("No")
 if forSale:
+    print("Yes")
+else:
+    print("No")
+if isOnline:
     print("Yes")
 else:
     print("No")
